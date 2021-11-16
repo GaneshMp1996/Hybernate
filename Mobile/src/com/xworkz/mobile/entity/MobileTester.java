@@ -21,7 +21,7 @@ public class MobileTester {
 
 		session.beginTransaction();
 
-		MobileEntity mobileEntity = new MobileEntity(3, "iphone", 96000.00, "256GB", "Black", 12, true, "IOS");
+		MobileEntity mobileEntity = new MobileEntity("iphone", 96000.00, "256GB", "Black", 12, true, "IOS");
 
 		session.save(mobileEntity);
 		System.out.println("Done");

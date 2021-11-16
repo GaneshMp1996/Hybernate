@@ -2,14 +2,15 @@
 <!DOCTYPE hibernate-configuration PUBLIC
         "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
-
 <hibernate-configuration>
 	<session-factory>
 		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
 		<property name="connection.url">jdbc:mysql://localhost:3306/laptop</property>
 		<property name="connection.username">root</property>
 		<property name="connection.password">ganeshmp</property>
+		<mapping class="com.xworkz.mobile.entity.MobileEntity" />
 
-		--<mapping class="com.xworkz.mobile.entity.MobileEntity"/>-- 
 	</session-factory>
+
+
 </hibernate-configuration>
