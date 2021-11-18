@@ -1,4 +1,4 @@
-package com.xworkz.mobile.entity;
+package com.xworkz.mobile.tester;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
